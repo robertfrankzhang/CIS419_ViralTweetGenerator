@@ -1,0 +1,52 @@
+User Fields:
+- Screen Name
+- User ID
+- Account Creation Date (created_at)
+- isVerified (verified)
+- Follower Count (public_metrics.followers_count)
+- Following Count (public_metrics.following_count)
+- Tweet Count (includes retweets) (public_metrics.tweet_count)
+
+User Follower Count Fields (manually populated):
+- User ID
+- 1/22 followers
+- 1/22 following
+- 7/21 followers
+- 7/21 following
+- 1/21 followers
+- 1/21 following
+- 7/20 followers
+- 7/20 following
+- 1/20 followers
+- 1/20 following
+- 7/19 followers
+- 7/19 following
+- 1/19 followers
+- 1/19 following
+- 7/18 followers
+- 7/18 following
+- 1/18 followers
+- 1/18 following
+
+Tweet Fields: Should have max 800 tweets per user, excluding replies and retweets
+
+- Tweet ID
+- text
+- Creation Date (created_at)
+- Author ID (author_id)
+- in_reply_to_user_id (will be null if not a reply)
+- Retweet Count (public_metrics_retweet_count)
+- Reply Count (public_metrics_reply_count)
+- Like Count (public_metrics_like_count)
+- Quote Count - # times retweeted w comment (public_metrics_quote_count)
+- Language (lang)
+- Possibly Sensitive - is tweet for mature audiences (possibly_sensitive)
+- Source - which platform the user tweeted from (source)
+- 1st url start index (inclusive) (entities.urls[0].start
+- 1st url end index (exclusive) (entities.urls[0].end
+- 1st url url (entities.urls[0].url)
+- 2nd url start index (inclusive) (entities.urls[1].start
+- 2nd url end index (exclusive) (entities.urls[1].end
+- 2nd url url (entities.urls[1].url)
+
+We will do 20 Democrats, 20 Republicans, for a total of 32,000 unfiltered tweets (maximum).
