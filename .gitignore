@@ -1,3 +1,6 @@
 RoBERTa/test_trainer/*
-RoBERTa/.ipynb_checkpoints*
-.ipynb_checkpoints*
+.ipynb_checkpoints/*
+RoBERTa/.ipynb_checkpoints/*
+RoBERTa/data/.ipynb_checkpoints/*
+RoBERTa/gen_data/.ipynb_checkpoints/*
+RoBERTa/virality_pred_fig/.ipynb_checkpoints/*
