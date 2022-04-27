@@ -16,6 +16,4 @@ tune_roberta.ipynb contains the script to utilize HuggingFace's existing RoBERTa
 3. Finetune RoBERTa to train a model to classify political party affiliation of input Tweets
 4. Use our [trained model](https://drive.google.com/file/d/1BkpLYFRZUJg7iKMiW6LngT-VuN4-CXNY/view?usp=sharing) to predict party affiliations of our generated Tweets
 
-data contains a copy of the preprocessed Tweets contained in DataPreprocessing and the generated Tweets.
-
-gen_data contains the virality score predictions and party affiliation predictions of the generated Tweets, as well as the most/least viral generated Tweets according to these predicted virality scores.
+data contains a copies of the preprocessed Tweets contained in DataPreprocessing and the generated Tweets output by our trained GPT-2 models.
